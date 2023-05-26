@@ -7,7 +7,7 @@ import './style/style.css';
 import GetWeatherInfo from './controllers/GetWeatherInfo';
 
 async function testAsync() {
-  const weatherInfo = await GetWeatherInfo()
+  const weatherInfo = await GetWeatherInfo('Hong Kong')
   console.log(weatherInfo)
 }
-testAsync()
+//testAsync()
